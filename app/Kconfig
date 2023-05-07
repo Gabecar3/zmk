@@ -345,7 +345,7 @@ config ZMK_BACKLIGHT_BRT_STEP
 config ZMK_BACKLIGHT_BRT_START
 	int "Default brightness in percent"
 	range 1 100
-	default 40
+	default 100
 
 config ZMK_BACKLIGHT_ON_START
 	bool "Default backlight state"
